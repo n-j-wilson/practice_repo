@@ -7,6 +7,15 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(usethis)
+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
+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
+?`usethis-package`
+
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+
+git remote set-url origin git@github.com:n-j-wilson/practice_repo.git
 ```
 
 ## R Markdown
