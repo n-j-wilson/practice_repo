@@ -9,9 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(usethis)
 pats
-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
-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
-?`usethis-package`
 
 usethis::create_github_token()
 gitcreds::gitcreds_set()
